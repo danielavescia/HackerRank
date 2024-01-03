@@ -16,7 +16,7 @@ namespace HackerRank.DataStructures.C_.ArrayAndList.Challenge1
 {
     class Challenge1
     {
-        public static int birthdayCakeCandles( List<int> candles )
+        public static int BirthdayCakeCandles( List<int> candles )
         {
             int biggestCandles = 0;
             int totalBiggestCandles = 0;

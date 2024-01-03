@@ -11,7 +11,7 @@ namespace HackerRank.DataStructures.C_.ArrayAndList.Challenge1
         public void TestBirthdayCakeCandles()
         {
             List<int> candles = new() { 1, 4, 2, 3 };
-            int result = Challenge1.birthdayCakeCandles( candles );
+            int result = Challenge1.BirthdayCakeCandles( candles );
             ClassicAssert.AreEqual( 1, result );
         }
 
@@ -19,7 +19,7 @@ namespace HackerRank.DataStructures.C_.ArrayAndList.Challenge1
         public void TestBirthdayCakeCandles2()
         {
             List<int> candles = new() { 1, 4, 2, 3, 4, 3, 4 };
-            int result = Challenge1.birthdayCakeCandles( candles );
+            int result = Challenge1.BirthdayCakeCandles( candles );
             ClassicAssert.AreEqual( 3, result );
         }
 
@@ -27,7 +27,7 @@ namespace HackerRank.DataStructures.C_.ArrayAndList.Challenge1
         public void TestBirthdayCakeCandles_WithZeroCandles()
         {
             List<int> candles = new() { };
-            int result = Challenge1.birthdayCakeCandles( candles );
+            int result = Challenge1.BirthdayCakeCandles( candles );
             ClassicAssert.AreEqual( 0, result );
         }
 
