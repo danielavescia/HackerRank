@@ -12,7 +12,7 @@ namespace HackerRank.ProblemSolving.C_.Data_Structures.ArraysDs
         {
             int j = 0;
             int n = a.Count - 1;
-            List<int> reversed = new List<int>();
+            List<int> reversed = new ();
 
             for ( int i = n ; i >= 0 ; i-- )
             {
@@ -27,7 +27,7 @@ namespace HackerRank.ProblemSolving.C_.Data_Structures.ArraysDs
         }
     }
 
-
+    /*
     class Solution
     {
         public static void Main( string [] args )
@@ -46,5 +46,5 @@ namespace HackerRank.ProblemSolving.C_.Data_Structures.ArraysDs
             textWriter.Close();
         }
 
-    }
+    }*/
 }
