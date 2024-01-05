@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace HackerRank.ProblemSolving.C_.Algorithms.Challenge2
 {
-
     class Challange2
     {
-
         /*
          * Complete the 'diagonalDifference' function below.
          *
@@ -35,7 +33,5 @@ namespace HackerRank.ProblemSolving.C_.Algorithms.Challenge2
 
             return absoluteDifference;
         }
-
     }
-    
 }
